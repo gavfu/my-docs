@@ -7,7 +7,7 @@ on:
       
 jobs:
   build:
-    if: github.repository == 'crustio/ethda-docs'
+    if: github.repository == 'gavfu/my-docs'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
