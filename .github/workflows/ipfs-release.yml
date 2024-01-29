@@ -27,7 +27,7 @@ jobs:
         id: upload
         uses: crustio/ipfs-upload-action@v2.0.4
         with:
-          path: './out'
+          path: './build'
           seeds: ${{ secrets.CRUST_SEEDS }}
           gateway: 'https://gw.crustfiles.net'
 
