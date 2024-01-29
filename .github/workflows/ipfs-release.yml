@@ -55,7 +55,7 @@ jobs:
       - name: Update DNS with new IPFS hash
         env:
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
-          RECORD_DOMAIN: 'ipfs.gavfu.com'
+          RECORD_DOMAIN: 'docs.gavfu.com'
           RECORD_NAME: '_dnslink'
           CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
         uses: textileio/cloudflare-update-dnslink@master
